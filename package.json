@@ -11,6 +11,9 @@
     "client": "npm run dev --prefix ../client",
     "start": "concurrently \"npm run server\" \"npm run client\""
   },
+  "engines": {
+  "node": ">=14 <19X"
+  },
   "author": "Tejas Saykar",
   "license": "ISC",
   "dependencies": {
